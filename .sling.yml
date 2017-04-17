@@ -1,0 +1,6 @@
+project: KatanaMonitor
+
+cocoapods:
+  public_repo:
+    email: bolismauro@gmail.com
+    author: Mauro Bolis

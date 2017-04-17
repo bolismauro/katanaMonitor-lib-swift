@@ -1,0 +1,15 @@
+PODS:
+  - Katana (0.8.1)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - Katana (< 0.9, >= 0.7)
+  - SocketRocket (~> 0.5)
+
+SPEC CHECKSUMS:
+  Katana: 48c5622c7644f50ed6aafcdc8990244546504be5
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: 8775aa06adad727b639d125c7e6f0ff7e81b1fc8
+
+COCOAPODS: 1.2.0
