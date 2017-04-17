@@ -11,7 +11,9 @@ monitor = target do |target|
     target.language = :swift
     target.type = :framework
     target.include_files = [
-        "KatanaMonitor/**/*.*",
+        "KatanaMonitor/**/*.swift",
+        "KatanaMonitor/**/*.m",
+        "KatanaMonitor/**/*.h",
     ]
 
     target.all_configurations.each do |configuration|
