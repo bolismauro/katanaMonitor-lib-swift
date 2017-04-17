@@ -33,7 +33,7 @@ var middleware: [StoreMiddleware] = [
 ]
 
 #if DEBUG
-middleware.append(KatanaMonitor.create(using: .defaultConfiguration))
+middleware.append(MonitorMiddleware.create(using: .defaultConfiguration))
 #endif
 ```
 
